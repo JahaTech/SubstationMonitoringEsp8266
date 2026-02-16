@@ -1,0 +1,22 @@
+Configuração do Hardware
+Conexões:
+DHT22 → ESP8266:
+
+VCC → 3.3V
+
+GND → GND
+
+DATA → D4 (GPIO2)
+
+SIM800L → ESP8266:
+
+VCC → 5V (com capacitor de 1000μF)
+
+GND → GND
+
+TX → RX (GPIO3)
+
+RX → TX (GPIO1)
+
+
+

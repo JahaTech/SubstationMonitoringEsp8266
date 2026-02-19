@@ -8,7 +8,7 @@ const char* WIFI_SSID = "GX1001_CFTV";
 const char* WIFI_PASSWORD = "Instrument#2025";
 
 // MQTT
-//const char* MQTT_BROKER = "broker.hivemq.com";  // Sem https://, apenas o domínio
+//const char* MQTT_BROKER = "broker.emqx.io";  // Sem https://, apenas o domínio
 const char* MQTT_BROKER = "io.adafruit.com";  // Sem https://, apenas o domínio
 const int MQTT_PORT = 1883;
 const char* MQTT_CLIENT_ID = "ESP8266_SE11F-VV07";    // ID único para seu dispositivo
